@@ -3,83 +3,107 @@
 <html>
 
 <head>
-<!--Meta-->
-  <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML,CSS, bootstrap">
-  <meta name="author" content="Oriana Agniel">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS, bootstrap">
+    <meta name="author" content="Oriana Agniel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../portfolio/CSS/index.css">
+    <title>Portfolio</title>
 
-<!--Bootstrap CSS-->   
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-<title>Portfolio</title>
+
+
 </head>
 
 <body>
 
-    <header class="container-header">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <div class="jumbotron jumbotron-fluid bg-cover">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+            <h1 class="display-3">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to
+                featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+
+    <!--About-->
+    <div class="container-fluid about">
         <div class="row">
-            <div class="col-sm">
-                <h1>Oriana Agniel</h1>
-                <h3>Apprentie magicienne en développement web et web mobile à Simplon  </h3>
-                <img src="~/html/portfolio/image/desktop-2325627_1920" alt="Photo">
+            <div class="col-lg-12 col-md-6">
+
+                    <h2>About me</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat consectetur commodo.
+                        Quisque sem leo, faucibus ac est quis, fringilla sagittis sem. Vestibulum hendrerit, leo et
+                        suscipit pharetra, sem lectus volutpat turpis, non efficitur turpis ligula et nisl. Nunc auctor
+                        erat in nibh hendrerit, eu viverra est cursus. Integer consectetur justo id lobortis molestie.
+                        Phasellus ac faucibus nibh, in laoreet odio. Morbi fermentum augue nunc, ac tempor elit
+                        pellentesque sed. Sed ultrices, mi quis fringilla tincidunt, ipsum ante dignissim tortor,
+                        finibus eleifend justo ipsum ut massa. Integer fringilla consequat elit in molestie. Nam laoreet
+                        justo scelerisque tortor mollis blandit.</p>
+                    <p>Duis imperdiet dapibus diam, sit amet accumsan justo hendrerit quis. Fusce ornare tellus orci, ut
+                        hendrerit nisl finibus sed. In hac habitasse platea dictumst. Nullam porta bibendum consequat.
+                        Mauris at magna vitae nunc elementum aliquet. Maecenas fringilla quam sed pellentesque
+                        malesuada. Duis ut massa nec purus rhoncus rhoncus quis a lectus. Morbi ac turpis non odio
+                        hendrerit finibus. Duis egestas felis eu turpis fringilla, sit amet tempor nunc semper. Donec
+                        sed maximus lacus. Nulla facilisi. Pellentesque eu lacus et ligula ultrices ultricies. Nulla id
+                        ipsum sed magna congue vehicula.</p>
+                </section>
             </div>
         </div>
-    </header>
+    </div>
 
-    <main class="container-main">
-        <h2>A propos de moi</h2>
-            <div class="row">
-                <!--Project 1-->
-                <div class="col">
-                    <div class="hover">
-                        <a href="https://candidaturedev.000webhostapp.com/index.html"> <img src="https://pixabay.com/fr/photos/ordinateur-de-bureau-2325627/" class="projetct1 " alt="projet un"></a>
-                        <div class="mask flex-center rgba-blue-light">
-                            <p class="white-text">Light overlay</p>
-                        </div>
-                    </div>
 
-                </div>
-                <!--Project 2-->
-                <div class="col">
-                    <img>
-                </div>
-                <!--Project 3-->
-                <div class="col">
-                        <img>
-                </div>
-                <!--Project 4-->
-                <div class="col">
-                    <img>
-                </div>
-            </div>
-
-          
-
-     
-
-    
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <h2>Me contacter</h2>
-                    <a href=""><img src="https://img.icons8.com/color/48/000000/gitlab.png" alt="Gitlab"></a>
-                    <a href=""><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin"></a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-            <a href="https://icons8.com/icon/13930/linkedin">LinkedIn icon by Icons8</a>
-            <a href="https://icons8.com/icon/34886/gitlab">Gitlab icon by Icons8</a>
-    </footer>
+    <!--Portfolio-->
 
 
 
-<!--Bootstrap JS-->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>
