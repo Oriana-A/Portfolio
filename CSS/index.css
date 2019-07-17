@@ -1,0 +1,30 @@
+/* Jimbotron Background image */
+
+.jumbotron {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 30rem;
+    height: 660px;
+
+  }
+  
+  .bg-cover {
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+    background-image: url(../images/notebook-1280538_1920.jpg)
+  }
+  
+  .overlay {
+    background-color:white;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+table
