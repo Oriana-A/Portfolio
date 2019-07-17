@@ -1,3 +1,9 @@
+#color-nav{
+    background-color: teal;
+}
+
+
+
 /* Jimbotron Background image */
 
 .jumbotron {
@@ -27,4 +33,59 @@
     right: 0;
     z-index: -1;
   }
-table
+
+  /*Jumbotron text*/
+
+.text-jumbotron{
+    padding: 150px;
+}
+
+  /*About*/
+
+  .container {
+    position: relative;
+    width: 50%;
+
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 20px;
+    border-radius: 50%;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

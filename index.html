@@ -32,7 +32,7 @@
 <body>
 
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="color-nav">
         <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
     <!--Header-->
     <div class="jumbotron jumbotron-fluid bg-cover">
         <div class="overlay"></div>
-        <div class="container-fluid">
+        <div class="container-fluid text-jumbotron">
             <h1 class="display-3">Hello, world!</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
                 to
@@ -64,40 +64,113 @@
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         </div>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 
 
     <!--About-->
-    <div class="container-fluid about">
-        <div class="row">
-            <div class="col-lg-12 col-md-6">
-
-                    <h2>About me</h2>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat consectetur commodo.
-                        Quisque sem leo, faucibus ac est quis, fringilla sagittis sem. Vestibulum hendrerit, leo et
-                        suscipit pharetra, sem lectus volutpat turpis, non efficitur turpis ligula et nisl. Nunc auctor
-                        erat in nibh hendrerit, eu viverra est cursus. Integer consectetur justo id lobortis molestie.
-                        Phasellus ac faucibus nibh, in laoreet odio. Morbi fermentum augue nunc, ac tempor elit
-                        pellentesque sed. Sed ultrices, mi quis fringilla tincidunt, ipsum ante dignissim tortor,
-                        finibus eleifend justo ipsum ut massa. Integer fringilla consequat elit in molestie. Nam laoreet
-                        justo scelerisque tortor mollis blandit.</p>
-                    <p>Duis imperdiet dapibus diam, sit amet accumsan justo hendrerit quis. Fusce ornare tellus orci, ut
-                        hendrerit nisl finibus sed. In hac habitasse platea dictumst. Nullam porta bibendum consequat.
-                        Mauris at magna vitae nunc elementum aliquet. Maecenas fringilla quam sed pellentesque
-                        malesuada. Duis ut massa nec purus rhoncus rhoncus quis a lectus. Morbi ac turpis non odio
-                        hendrerit finibus. Duis egestas felis eu turpis fringilla, sit amet tempor nunc semper. Donec
-                        sed maximus lacus. Nulla facilisi. Pellentesque eu lacus et ligula ultrices ultricies. Nulla id
-                        ipsum sed magna congue vehicula.</p>
-                </section>
+    <div class="container-fluid">
+        <div class="row text-justify">
+            <div class="col-12">
+                <h2 class="text-center mb-5 mt-5">About me</h2>
+            </div>
+            <div class="col-12 col-md-4 mx-auto" style="width: 50px">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat consectetur commodo.
+                    Quisque sem leo, faucibus ac est quis, fringilla sagittis sem. Vestibulum hendrerit, leo et
+                    suscipit pharetra, sem lectus volutpat turpis, non efficitur turpis ligula et nisl. Nunc auctor
+                    erat in nibh hendrerit, eu viverra est cursus. Integer consectetur justo id lobortis molestie.
+                    Phasellus ac faucibus nibh, in laoreet odio. Morbi fermentum augue nunc, ac tempor elit
+                    pellentesque sed. Sed ultrices, mi quis fringilla tincidunt, ipsum ante dignissim tortor,
+                    finibus eleifend justo ipsum ut massa. Integer fringilla consequat elit in molestie. Nam laoreet
+                    justo scelerisque tortor mollis blandit.</p>
+            </div>
+            <div class="col-12 col-md-4 mx-auto" style="width: 50px">
+                <p>Duis imperdiet dapibus diam, sit amet accumsan justo hendrerit quis. Fusce ornare tellus orci, ut
+                    hendrerit nisl finibus sed. In hac habitasse platea dictumst. Nullam porta bibendum consequat.
+                    Mauris at magna vitae nunc elementum aliquet. Maecenas fringilla quam sed pellentesque
+                    malesuada. Duis ut massa nec purus rhoncus rhoncus quis a lectus. Morbi ac turpis non odio
+                    hendrerit finibus. Duis egestas felis eu turpis fringilla, sit amet tempor nunc semper. Donec
+                    sed maximus lacus. Nulla facilisi. Pellentesque eu lacus et ligula ultrices ultricies. Nulla id
+                    ipsum sed magna congue vehicula.</p>
             </div>
         </div>
     </div>
 
 
-    <!--Portfolio-->
+    <!--Portfolio Grid-->
+
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 mt-5">Portfolio</h2>
+        <div class="row">
+
+            <!--Projet 1-->
+            <div class="col-6 col-lg-4">
+                <div class="container">
+                    <img src="images/ordi.jpg" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text">Projet 1 : Website
+                            <br>HTML/CSS/JS
+                            <br>Juin 2019
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Projet 2-->
+            <div class="col-6 col-lg-4">
+                <div class="container">
+                    <img src="images/ordi.jpg" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text">En cours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Projet 3-->
+            <div class="col-6 col-lg-4">
+                    <div class="container">
+                        <img src="images/ordi.jpg" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text">En cours</div>
+                        </div>
+                    </div>
+                </div>
+
+            <!--Projet 4-->
+            <div class="col-6 col-lg-4">
+                <div class="container">
+                    <img src="images/ordi.jpg" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text">En cours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Projet 5-->
+            <div class="col-6 col-lg-4">
+                <div class="container">
+                    <img src="images/ordi.jpg" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text">En cours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Projet 6-->
+            <div class="col-6 col-lg-4">
+                <div class="container">
+                    <img src="images/ordi.jpg" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text">En cours</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
 
 
 
