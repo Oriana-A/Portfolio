@@ -1,7 +1,11 @@
+/*Nav*/
 #color-nav{
-    background-color: teal;
+    background-color: rgba(144,170,193,0.5);
 }
 
+.text-nav{
+  color: teal;
+}
 
 /* Jumbotron Background image */
 
@@ -33,19 +37,20 @@
     z-index: -1;
   }
 
-  /*Jumbotron text*/
+/*Jumbotron text*/
 
 .text-jumbotron{
     padding: 150px;
 }
 
-  /*About*/
-  
+
+/*About*/
+
 .about{
     width: 80%;
   }
 
-  /*Portfolio*/
+/*Portfolio*/
 #portfolio-grid{
   width: 90%;
 }
@@ -85,4 +90,14 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+
+  /*Contact*/
+  #contact{
+  height: auto;
+  background: #90aac1;
+  }
+
+  .contact-form{
+    margin-bottom: 40px;
   }
